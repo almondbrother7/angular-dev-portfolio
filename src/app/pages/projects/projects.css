@@ -1,0 +1,19 @@
+.project {
+  margin-bottom: 2rem;
+  border-left: 4px solid #007acc;
+  padding-left: 1rem;
+}
+
+.project .duration {
+  font-style: italic;
+  color: #777;
+  margin-bottom: 0.5rem;
+}
+
+.project ul {
+  padding-left: 1.2rem;
+}
+
+.project ul li {
+  margin-bottom: 0.5rem;
+}

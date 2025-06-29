@@ -1,1 +1,48 @@
-<p>contact works!</p>
+<section class="page-container contact">
+  <h1>Andrew Carey - Connect</h1>
+  <p>I’m actively looking for opportunities to contribute to meaningful projects — especially in Angular, AWS, or C# backends.  I'm also training towards Azure cloud certification and would love to work with those technologies.</p>
+
+  <ul class="contact-list">
+    <li><i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/andrew-carey7" target="_blank">LinkedIn Profile</a></li>
+    <li><i class="fa fa-github"></i> <a href="https://github.com/almondbrother7" target="_blank">GitHub Projects</a></li>
+    <li><i class="fa fa-envelope"></i> <a href="mailto:almondbrother7@gmail.com">Email Andrew Carey</a></li>
+  </ul>
+
+  <p>Or just shoot me a quick note:</p>
+
+  <form class="contact-form" action="https://formspree.io/f/movwrved" method="POST">
+    <label for="name">Name</label>
+    <input 
+      type="text" 
+      id="name" 
+      name="name" 
+      required 
+      placeholder="Enter your name" 
+    />
+
+    <label for="email">Email</label>
+    <input 
+      type="email" 
+      id="email" 
+      name="email" 
+      required 
+      placeholder="Enter your email address" 
+    />
+
+    <label for="message">Message</label>
+    <textarea 
+      id="message" 
+      name="message" 
+      rows="5" 
+      required 
+      placeholder="What would you like to say?" 
+    ></textarea>
+
+    <button type="submit" class="btn">Send</button>
+  </form>
+</section>
+
+<div class="nav-links">
+  <a routerLink="/" class="btn">← Back to Home</a>
+  <a routerLink="/projects" class="btn">View Projects →</a>
+</div>
